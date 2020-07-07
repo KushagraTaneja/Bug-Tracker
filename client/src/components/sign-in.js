@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import '../assets/css/sign-in.css';
 
 
+
+
+
 class SignIn extends React.Component {
   render() {
 
@@ -14,9 +17,9 @@ class SignIn extends React.Component {
           Bug Tracker 
           </h1>
           <label for="inputEmail" className="sr-only">Email address</label>
-          <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus />
-          <label for="inputPassword" className="sr-only">Password</label>
-          <input type="password" id="inputPassword" className="form-control" placeholder="Password" required />
+          <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus /> 
+          <label for="inputPassword" className="sr-only">Password</label> 
+          <input type="password" id="inputPassword" className="form-control" placeholder="Password" required /> 
           <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
           <p className="mt-5 mb-3 text-muted">Forgot your <a href="">password?</a></p>
           <p className="mb-3 text-muted">Create an account? <a href="">Sign Up</a></p>
